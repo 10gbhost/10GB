@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart home automation solutions for Nigerian homes. Control lighting, security, climate, and appliances remotely with intelligent home technology from 10G.">
+    <meta name="keywords" content="smart home Nigeria, home automation, smart lighting, smart security, energy monitoring">
+    <meta name="author" content="10G Energy Solutions">
+    <title>Smart Homes - 10G | Home Automation & Intelligent Living Solutions</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Date & Time Display -->
+    <div class="datetime-display">
+        <div class="container">
+            <div><i class="far fa-calendar-alt"></i><span id="current-date">Loading...</span></div>
+            <div><i class="far fa-clock"></i><span id="current-time">Loading...</span></div>
+        </div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="10G Logo">
+                </a>
+            </div>
+            
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="solar-solutions.html">Solar Solutions</a></li>
+                <li><a href="smart-homes.html" class="active">Smart Homes</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Page Header -->
+    <section class="hero" style="height: 50vh; min-height: 400px; background: linear-gradient(135deg, rgba(30, 58, 95, 0.95), rgba(45, 90, 143, 0.9)), url('assets/images/smart-home-1.jpg') center/cover no-repeat;">
+        <div class="hero-content">
+            <h1>Intelligent <span class="highlight">Smart Home</span> Solutions</h1>
+            <p>Control, monitor, and automate your entire home from your smartphone</p>
+        </div>
+    </section>
+    
+    <!-- Introduction -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Welcome to the Future of Living</h2>
+                <p>Experience convenience, security, and efficiency like never before</p>
+            </div>
+            
+            <div class="grid grid-2" style="align-items: center; gap: 50px;">
+                <div>
+                    <h3>What is a Smart Home?</h3>
+                    <p>A smart home integrates connected devices and systems that can be controlled remotely via smartphone, tablet, or voice commands. From adjusting your air conditioning before you arrive home to monitoring security cameras from anywhere in the world, smart home technology puts complete control at your fingertips.</p>
+                    <p>10G's smart home solutions seamlessly integrate with your solar energy system, allowing you to monitor energy production and consumption in real-time, automate energy-intensive appliances to run during peak solar hours, and maximize your savings.</p>
+                    <p>Whether you're building a new home or upgrading an existing property, our modular smart home systems can be customized to meet your specific needs and expanded over time.</p>
+                </div>
+                <div>
+                    <img src="assets/images/control-panel.jpg" alt="Smart Home Control" style="width: 100%; border-radius: 15px; box-shadow: var(--shadow);">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Smart Home Features -->
+    <section class="section" style="background-color: var(--off-white);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Comprehensive Smart Home Features</h2>
+                <p>Intelligent automation for every aspect of your home</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="card">
+                    <i class="fas fa-lightbulb card-icon"></i>
+                    <div class="card-content">
+                        <h3>Smart Lighting</h3>
+                        <p>Control all lights remotely, set schedules, create scenes, and adjust brightness and color. Motion-activated lighting for energy savings and convenience.</p>
+                        <ul style="margin-top: 15px; font-size: 0.95rem; line-height: 1.8;">
+                            <li>• Voice-controlled lighting</li>
+                            <li>• Automated schedules</li>
+                            <li>• Dimming & color control</li>
+                            <li>• Energy monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <i class="fas fa-shield-alt card-icon"></i>
+                    <div class="card-content">
+                        <h3>Smart Security</h3>
+                        <p>HD security cameras, smart locks, motion sensors, and doorbell cameras. Real-time alerts and monitoring from anywhere in the world.</p>
+                        <ul style="margin-top: 15px; font-size: 0.95rem; line-height: 1.8;">
+                            <li>• Live video streaming</li>
+                            <li>• Motion detection alerts</li>
+                            <li>• Smart door locks</li>
+                            <li>• 24/7 recording</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <i class="fas fa-temperature-high card-icon"></i>
+                    <div class="card-content">
+                        <h3>Climate Control</h3>
+                        <p>Smart thermostats and AC controllers learn your preferences and optimize energy usage. Pre-cool your home before arrival.</p>
+                        <ul style="margin-top: 15px; font-size: 0.95rem; line-height: 1.8;">
+                            <li>• Remote AC control</li>
+                            <li>• Temperature scheduling</li>
+                            <li>• Energy optimization</li>
+                            <li>• Voice commands</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <i class="fas fa-plug card-icon"></i>
+                    <div class="card-content">
+                        <h3>Smart Plugs & Outlets</h3>
+                        <p>Convert any appliance into a smart device. Monitor power consumption, set schedules, and control devices remotely.</p>
+                        <ul style="margin-top: 15px; font-size: 0.95rem; line-height: 1.8;">
+                            <li>• Remote on/off control</li>
+                            <li>• Power monitoring</li>
+                            <li>• Scheduled operation</li>
+                            <li>• Energy reports</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <i class="fas fa-video card-icon"></i>
+                    <div class="card-content">
+                        <h3>Entertainment</h3>
+                        <p>Integrated home theater systems, multi-room audio, and smart TVs. Control everything with voice or smartphone.</p>
+                        <ul style="margin-top: 15px; font-size: 0.95rem; line-height: 1.8;">
+                            <li>• Voice-controlled TV</li>
+                            <li>• Multi-room audio</li>
+                            <li>• Automated scenes</li>
+                            <li>• Universal remotes</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <i class="fas fa-chart-line card-icon"></i>
+                    <div class="card-content">
+                        <h3>Energy Monitoring</h3>
+                        <p>Real-time tracking of solar production, battery status, and consumption. Identify energy hogs and optimize usage.</p>
+                        <ul style="margin-top: 15px; font-size: 0.95rem; line-height: 1.8;">
+                            <li>• Solar production tracking</li>
+                            <li>• Consumption analytics</li>
+                            <li>• Cost calculations</li>
+                            <li>• Device-level monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Voice Control -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Voice Control Integration</h2>
+                <p>Control your home with simple voice commands</p>
+            </div>
+            
+            <div class="grid grid-2" style="align-items: center; gap: 50px;">
+                <div>
+                    <img src="assets/images/smart-home-2.jpg" alt="Voice Control" style="width: 100%; border-radius: 15px; box-shadow: var(--shadow);">
+                </div>
+                <div>
+                    <h3>Seamless Voice Assistant Integration</h3>
+                    <p>All our smart home systems are compatible with popular voice assistants including Google Assistant, Amazon Alexa, and Apple HomeKit. Control lights, security, climate, and more using simple voice commands.</p>
+                    
+                    <div style="margin-top: 30px; padding: 30px; background: var(--off-white); border-radius: 15px;">
+                        <h4 style="color: var(--primary-navy); margin-bottom: 20px;">Example Voice Commands:</h4>
+                        <ul style="line-height: 2; list-style: none; padding: 0;">
+                            <li><i class="fas fa-microphone" style="color: var(--primary-gold); margin-right: 10px;"></i>"Turn off all lights"</li>
+                            <li><i class="fas fa-microphone" style="color: var(--primary-gold); margin-right: 10px;"></i>"Set living room to 22 degrees"</li>
+                            <li><i class="fas fa-microphone" style="color: var(--primary-gold); margin-right: 10px;"></i>"Show me the front door camera"</li>
+                            <li><i class="fas fa-microphone" style="color: var(--primary-gold); margin-right: 10px;"></i>"Good morning" (activates custom scene)</li>
+                            <li><i class="fas fa-microphone" style="color: var(--primary-gold); margin-right: 10px;"></i>"Lock all doors"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Energy Efficiency -->
+    <section class="section" style="background: linear-gradient(135deg, rgba(30, 58, 95, 0.05), rgba(201, 169, 97, 0.05));">
+        <div class="container">
+            <div class="section-title">
+                <h2>Smart Energy Management</h2>
+                <p>Maximize solar savings with intelligent automation</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div style="text-align: center; padding: 30px;">
+                    <i class="fas fa-sun" style="font-size: 3.5rem; color: var(--primary-gold); margin-bottom: 20px;"></i>
+                    <h4>Solar Optimization</h4>
+                    <p>Automatically schedule energy-intensive appliances to run during peak solar production hours, maximizing the use of free solar energy.</p>
+                </div>
+                
+                <div style="text-align: center; padding: 30px;">
+                    <i class="fas fa-battery-three-quarters" style="font-size: 3.5rem; color: var(--primary-gold); margin-bottom: 20px;"></i>
+                    <h4>Battery Management</h4>
+                    <p>Monitor battery levels in real-time. Receive alerts when batteries are low and optimize charging cycles for maximum battery lifespan.</p>
+                </div>
+                
+                <div style="text-align: center; padding: 30px;">
+                    <i class="fas fa-chart-pie" style="font-size: 3.5rem; color: var(--primary-gold); margin-bottom: 20px;"></i>
+                    <h4>Usage Analytics</h4>
+                    <p>Detailed energy reports show consumption patterns, identify wasteful devices, and provide recommendations for additional savings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Smart Home Packages -->
+    <section class="section" style="background-color: var(--off-white);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Smart Home Packages</h2>
+                <p>Complete solutions for homes of every size</p>
+            </div>
+            
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-content">
+                        <h3 style="text-align: center; color: var(--primary-navy);">Starter Package</h3>
+                        <p style="text-align: center; font-size: 1.8rem; color: var(--primary-gold); font-weight: 700; margin: 20px 0;">Essential Smart Home</p>
+                        <ul style="line-height: 2;">
+                            <li>10 Smart LED Bulbs</li>
+                            <li>1 Smart Thermostat</li>
+                            <li>4 Smart Plugs</li>
+                            <li>1 Voice Assistant Hub</li>
+                            <li>Mobile App Access</li>
+                            <li>Installation & Setup</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary" style="width: 100%; margin-top: 25px;">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-content">
+                        <h3 style="text-align: center; color: var(--primary-navy);">Premium Package</h3>
+                        <p style="text-align: center; font-size: 1.8rem; color: var(--primary-gold); font-weight: 700; margin: 20px 0;">Complete Automation</p>
+                        <ul style="line-height: 2;">
+                            <li>20 Smart LED Bulbs</li>
+                            <li>2 Smart Thermostats</li>
+                            <li>8 Smart Plugs</li>
+                            <li>4 Security Cameras</li>
+                            <li>Smart Door Lock</li>
+                            <li>Energy Monitor</li>
+                            <li>Voice Assistant Hub</li>
+                            <li>Installation & Training</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary" style="width: 100%; margin-top: 25px;">Get Quote</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-content">
+                        <h3 style="text-align: center; color: var(--primary-navy);">Luxury Package</h3>
+                        <p style="text-align: center; font-size: 1.8rem; color: var(--primary-gold); font-weight: 700; margin: 20px 0;">Ultimate Smart Living</p>
+                        <ul style="line-height: 2;">
+                            <li>Whole-Home Lighting</li>
+                            <li>Multi-Zone Climate</li>
+                            <li>Comprehensive Security</li>
+                            <li>8+ HD Cameras</li>
+                            <li>Smart Locks & Sensors</li>
+                            <li>Entertainment System</li>
+                            <li>Advanced Energy Management</li>
+                            <li>Dedicated Support</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary" style="width: 100%; margin-top: 25px;">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Benefits Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Smart Home Technology?</h2>
+                <p>The advantages of intelligent home automation</p>
+            </div>
+            
+            <div class="grid grid-2" style="gap: 40px;">
+                <div style="display: flex; gap: 20px; align-items: start;">
+                    <i class="fas fa-coins" style="font-size: 2.5rem; color: var(--primary-gold); flex-shrink: 0;"></i>
+                    <div>
+                        <h4>Reduce Energy Costs</h4>
+                        <p>Smart automation can reduce energy consumption by 20-30% through intelligent scheduling, automated lighting, and optimized climate control.</p>
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 20px; align-items: start;">
+                    <i class="fas fa-lock" style="font-size: 2.5rem; color: var(--primary-gold); flex-shrink: 0;"></i>
+                    <div>
+                        <h4>Enhanced Security</h4>
+                        <p>24/7 monitoring, instant alerts, and remote access provide peace of mind whether you're at home or traveling.</p>
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 20px; align-items: start;">
+                    <i class="fas fa-couch" style="font-size: 2.5rem; color: var(--primary-gold); flex-shrink: 0;"></i>
+                    <div>
+                        <h4>Ultimate Convenience</h4>
+                        <p>Control everything from one app or with voice commands. Automate daily routines and eliminate repetitive tasks.</p>
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 20px; align-items: start;">
+                    <i class="fas fa-home" style="font-size: 2.5rem; color: var(--primary-gold); flex-shrink: 0;"></i>
+                    <div>
+                        <h4>Increased Property Value</h4>
+                        <p>Smart homes are in high demand. Professional automation systems significantly increase property value and appeal to buyers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call to Action -->
+    <section class="section" style="background: linear-gradient(135deg, var(--primary-navy), #2d5a8f); color: white; text-align: center;">
+        <div class="container">
+            <h2 style="color: white; margin-bottom: 20px;">Transform Your Home Today</h2>
+            <p style="color: white; font-size: 1.2rem; max-width: 700px; margin: 0 auto 35px;">Experience the convenience, security, and efficiency of a fully automated smart home. Our experts will design the perfect system for you.</p>
+            <div class="btn-group" style="justify-content: center;">
+                <a href="contact.html" class="btn btn-secondary">Schedule Consultation</a>
+                <a href="projects.html" class="btn btn-outline" style="border-color: white; color: white;">View Smart Home Projects</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <img src="assets/images/logo.png" alt="10G Logo" style="height: 70px; margin-bottom: 20px;">
+                    <p>Nigeria's leading provider of premium solar energy systems, battery storage solutions, and smart home automation technology.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="solar-solutions.html">Solar Solutions</a></li>
+                        <li><a href="smart-homes.html">Smart Homes</a></li>
+                        <li><a href="projects.html">Our Projects</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="solar-solutions.html#panels">Solar Panels</a></li>
+                        <li><a href="solar-solutions.html#inverters">Inverters</a></li>
+                        <li><a href="solar-solutions.html#battery-storage">Battery Storage</a></li>
+                        <li><a href="solar-solutions.html#hybrid">Hybrid Systems</a></li>
+                        <li><a href="smart-homes.html">Home Automation</a></li>
+                        <li><a href="#">Maintenance & Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i>Lagos, Nigeria</p>
+                    <p><i class="fas fa-phone"></i>+234 816 647 0416</p>
+                    <p><i class="fas fa-envelope"></i>info@10genergy.ng</p>
+                    <p><i class="fas fa-clock"></i>Mon - Sat: 8:00 AM - 6:00 PM</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 10G Energy Solutions. All Rights Reserved.</p>
+                <p>Project commissioned by: <strong>Ekwueme Victor</strong> | <i class="fas fa-phone"></i> 08166470416</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>
